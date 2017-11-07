@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ekasilabalexcdtb.quizappfinal.MainActivity">
+
+
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:backgroundTint="@color/colorAccent"
+        android:layout_marginBottom="7dp"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:text="Planets">
+
+    </Button>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:backgroundTint="@color/colorAccent"
+        android:layout_marginBottom="7dp"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:text="South Africa">
+
+    </Button>
+
+
+    <Button
+        android:id="@+id/button3"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:backgroundTint="@color/colorAccent"
+        android:layout_marginBottom="7dp"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:text="what am i , who am i">
+
+    </Button>
+
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:backgroundTint="@color/colorAccent"
+        android:layout_marginBottom="7dp"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:text="Humour">
+
+    </Button>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/mark" />
+
+    <TextView
+        android:id="@+id/fun"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/button1"
+        android:text="FUN QUIZ"
+        android:gravity="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="30dp"
+        android:fontFamily="serif-monospace"
+        android:layout_centerVertical="true"/>
+
+
+</RelativeLayout>
